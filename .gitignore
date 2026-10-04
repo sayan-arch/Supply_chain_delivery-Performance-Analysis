@@ -1,0 +1,93 @@
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+MANIFEST
+# Installer / dependency manager output
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock.bak
+poetry.lock.bak
+uv.lock.bak
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Environment variables, credentials, and private keys
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.json
+service-account*.json
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+# Web frameworks: Django, Flask, FastAPI, Pyramid
+*.sqlite3
+*.sqlite3-journal
+instance/
+staticfiles/
+media/
+local_settings.py
+django_cache/
+# ASGI / task queues / schedulers
+celerybeat-schedule
+celerybeat.pid
+celeryd.pid
+*.pid
+# Data science, notebooks, and ML artifacts
+.ipython/
+.cache/
+wandb/
+mlruns/
+mlartifacts/
+lightning_logs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.arrow
+# Cloud and infrastructure state
+.terraform/
+*.tfstate
+*.tfstate.*
+.serverless/
+.chalice/deployments/
+.aws-sam/
+# Generated documentation and localization
+site/
+docs/_build/
+*.mo
+*.pot
+# Local test databases and generated reports
+test.db
+*.prof
+*.profile
+*.dump
+*.sql.gz
