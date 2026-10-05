@@ -3,7 +3,7 @@
 from pathlib import Path
 import pandas as pd
 PROJECT_FOLDER = Path(__file__).resolve().parents[1]
-CSV_PATH = PROJECT_FOLDER / "data" / "shipment_delivery.csv"
+CSV_PATH = PROJECT_FOLDER / "data" / "raw.csv"
 
 
 def load_data():

@@ -1,0 +1,21 @@
+{
+  "Rows_Without_Shipment_ID_Removed": 7,
+  "Duplicate_Shipment_IDs_Removed": 65,
+  "Invalid_Order_Date_Formats": 0,
+  "Invalid_Ship_Date_Formats": 0,
+  "Invalid_Expected_Delivery_Formats": 0,
+  "Invalid_Actual_Delivery_Formats": 0,
+  "Missing_Carrier": 28,
+  "Missing_Route": 0,
+  "Missing_Order_Date": 0,
+  "Missing_Ship_Date": 0,
+  "Missing_Expected_Delivery": 38,
+  "Missing_Actual_Delivery": 437,
+  "Actual_Delivery_Before_Ship_Date": 18,
+  "Expected_Delivery_Before_Ship_Date": 12,
+  "Delivery_Durations_Over_30_Days": 0,
+  "Delays_Over_30_Days": 0,
+  "Cancelled_Shipments_Kept": 163,
+  "Undelivered_Shipments_Kept": 152,
+  "Delivered_Shipments_Eligible_For_KPIs": 5866
+}

@@ -1,0 +1,7 @@
+Delay_Reason,Delayed_Shipments,Avg_Delay,Median_Delay
+Warehouse Backlog,515,3.681553398058252,3.0
+Vehicle Issue,510,3.7137254901960786,3.0
+Customs,500,3.59,3.0
+Weather,499,3.7695390781563125,3.0
+Traffic,490,3.5918367346938775,3.0
+Capacity Constraint,485,3.7443298969072165,3.0

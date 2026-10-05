@@ -29,24 +29,55 @@ def clean_categories(df):
     return df
 
 def convert_dates(df):
-    """Convert date columns; unparseable dates become missing values."""
+    """Convert the project's mixed date formats and count invalid values."""
     invalid_date_counts = {}
+
+    date_formats = [
+        "%Y-%m-%d",
+        "%m/%d/%Y",
+        "%d-%b-%Y",
+    ]
+
     for column in DATE_COLUMNS:
+        raw_dates = df[column].astype("string").str.strip()
+
         had_a_value = (
-            df[column].notnull()
-            & df[column].astype("string").str.strip().ne("")
+            raw_dates.notna()
+            & raw_dates.ne("")
         )
-        converted = pd.to_datetime(
-            df[column],
+
+        # Try each known format explicitly.
+        converted = pd.Series(
+            pd.NaT,
+            index=df.index,
+            dtype="datetime64[ns]",
+        )
+
+        for date_format in date_formats:
+            still_unparsed = had_a_value & converted.isna()
+
+            converted.loc[still_unparsed] = pd.to_datetime(
+                raw_dates.loc[still_unparsed],
+                format=date_format,
+                errors="coerce",
+            )
+
+        # Fallback for spreadsheet-exported dates that include a time.
+        still_unparsed = had_a_value & converted.isna()
+
+        converted.loc[still_unparsed] = pd.to_datetime(
+            raw_dates.loc[still_unparsed],
             format="mixed",
             errors="coerce",
         )
-        invalid_date_counts[f"Invalid_{column}_Formats"] = int(
-            (had_a_value & converted.isnull()).sum()
-        )
-        df[column] = converted
-    return df, invalid_date_counts
 
+        invalid_date_counts[f"Invalid_{column}_Formats"] = int(
+            (had_a_value & converted.isna()).sum()
+        )
+
+        df[column] = converted
+
+    return df, invalid_date_counts
 
 def convert_number(values):
     """Convert values such as '1,250 km' or '$1,250.50' to numbers."""

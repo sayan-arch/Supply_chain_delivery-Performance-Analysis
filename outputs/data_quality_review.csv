@@ -1,0 +1,76 @@
+Shipment_ID,Order_Date,Ship_Date,Expected_Delivery,Actual_Delivery,Carrier,Origin_Region,Destination_Region,Route,Shipping_Mode,Distance_KM,Delay_Reason,Shipment_Status,Shipping_Cost,Priority,Delivery_Days,Delay_Days,Outcome_Eligible,On_Time,Long_Delivery_Flag,Long_Delay_Flag
+SHP005566,2025-04-19,2025-04-22,2025-04-27,,Skyfreight,East,Central,East-Central,Road,1030,Traffic,Delivered,909.39,Express,,,False,,False,False
+SHP002302,2025-02-26,2025-02-28,2025-03-04,,Metrologix,North,South,North-South,Road,490,Weather,Delivered,570.35,Economy,,,False,,False,False
+SHP001835,2025-02-23,2025-02-24,2025-03-02,,Skyfreight,South,Central,South-Central,Road,1270,,Delivered,1058.24,Standard,,,False,,False,False
+SHP003359,2025-01-02,2025-01-03,,2025-01-03,Metrologix,Central,West,Central-West,Road,290,,Delivered,393.38,Economy,0.0,,False,,False,False
+SHP002250,2025-02-18,2025-02-20,2025-02-27,,Skyfreight,East,North,East-North,Road,1070,Vehicle Issue,Delivered,1029.9,Economy,,,False,,False,False
+SHP000054,2025-06-11,2025-06-13,2025-06-17,,Metrologix,East,Central,East-Central,Air,120,Vehicle Issue,Delivered,317.86,Standard,,,False,,False,False
+SHP005917,2025-04-14,2025-04-16,,2025-04-25,Parcelpro,East,Central,East-Central,Road,1670,,Delivered,1601.0,Standard,9.0,,False,,False,False
+SHP005872,2025-10-21,2025-10-22,,2025-11-03,Roadrunner,South,East,South-East,Road,150,Warehouse Backlog,Delivered,192.11,Express,12.0,,False,,False,False
+SHP003934,2025-09-06,2025-09-08,2025-09-10,,Roadrunner,West,South,West-South,Road,240,,Delivered,323.99,Express,,,False,,False,False
+SHP000959,2025-10-08,2025-10-10,2025-10-15,,Parcelpro,South,West,South-West,Road,620,Traffic,Delivered,550.72,Economy,,,False,,False,False
+SHP005202,2025-03-24,2025-03-26,2025-04-04,,Metrologix,North,West,North-West,Road,2320,Capacity Constraint,Delivered,1865.68,Standard,,,False,,False,False
+SHP001215,2025-04-11,2025-04-13,2025-04-17,,Parcelpro,Central,West,Central-West,Road,1000,,Delivered,837.11,Express,,,False,,False,False
+SHP002809,2025-08-10,2025-08-13,2025-08-18,,Swiftship,North,South,North-South,Air,1860,Warehouse Backlog,Delivered,3318.04,Economy,,,False,,False,False
+SHP000098,2025-01-15,2025-01-17,,2025-01-29,Parcelpro,East,South,East-South,Road,850,Vehicle Issue,Delivered,1219.98,Standard,12.0,,False,,False,False
+SHP001579,2025-12-31,2026-01-01,,2026-01-10,Roadrunner,West,Central,West-Central,Road,420,Traffic,Delivered,604.99,Express,9.0,,False,,False,False
+SHP005206,2025-08-07,2025-08-09,,2025-08-15,Parcelpro,South,West,South-West,Road,300,Capacity Constraint,Delivered,481.75,Express,6.0,,False,,False,False
+SHP003880,2025-05-09,2025-05-13,2025-05-22,,Swiftship,Central,South,Central-South,Road,2020,Vehicle Issue,Delivered,2716.76,Economy,,,False,,False,False
+SHP005458,2025-12-10,2025-12-12,,2025-12-21,Roadrunner,East,Central,East-Central,Road,990,Customs,Delivered,1361.53,Standard,9.0,,False,,False,False
+SHP002984,2025-02-11,2025-02-13,2025-02-15,,Swiftship,North,West,North-West,Air,520,,Delivered,967.38,Economy,,,False,,False,False
+SHP003293,2025-05-21,2025-05-23,2025-05-26,,Swiftship,West,East,West-East,Road,370,,Delivered,412.05,Standard,,,False,,False,False
+SHP006436,2025-01-30,2025-01-31,,2025-02-07,Parcelpro,West,South,West-South,Road,1090,,Delivered,1398.75,Standard,7.0,,False,,False,False
+SHP005521,2025-05-09,2025-05-11,2025-05-17,,Swiftship,East,West,East-West,Road,1030,,Delivered,1479.14,Standard,,,False,,False,False
+SHP005776,2025-01-24,2025-01-25,,2025-01-28,,East,Central,East-Central,Rail,830,,Delivered,860.67,Express,3.0,,False,,False,False
+SHP004191,2025-08-10,2025-08-13,2025-08-17,,Roadrunner,West,North,West-North,Air,790,,Delivered,1297.69,Economy,,,False,,False,False
+SHP003163,2025-01-16,2025-01-18,,2025-01-22,Metrologix,West,East,West-East,Air,1680,,Delivered,3370.39,Standard,4.0,,False,,False,False
+SHP003100,2025-06-20,2025-06-22,2025-06-30,,Metrologix,Central,West,Central-West,Road,1860,,Delivered,2414.06,Standard,,,False,,False,False
+SHP001520,2025-09-26,2025-09-28,,2025-10-06,Metrologix,Central,South,Central-South,Air,860,Warehouse Backlog,Delivered,1209.06,Standard,8.0,,False,,False,False
+SHP003300,2025-10-17,2025-10-19,,2025-10-30,Parcelpro,South,Central,South-Central,Road,2250,,Delivered,3022.88,Standard,11.0,,False,,False,False
+SHP001989,2025-08-17,2025-08-20,2025-08-26,,Metrologix,South,Central,South-Central,Rail,1460,Vehicle Issue,Delivered,1584.8,Express,,,False,,False,False
+SHP003374,2025-05-05,2025-05-08,,2025-05-13,Swiftship,East,South,East-South,Road,730,,Delivered,846.86,Express,5.0,,False,,False,False
+SHP002764,2025-09-14,2025-09-17,2025-09-19,,Skyfreight,West,Central,West-Central,Rail,270,,Delivered,235.07,Economy,,,False,,False,False
+SHP005981,2025-02-24,2025-02-25,,2025-03-08,Roadrunner,North,Central,North-Central,Air,680,Customs,Delivered,1201.91,Economy,11.0,,False,,False,False
+SHP004917,2025-03-24,2025-03-27,2025-03-30,,Parcelpro,West,South,West-South,Air,1210,Vehicle Issue,Delivered,2732.44,Standard,,,False,,False,False
+SHP004844,2025-03-25,2025-03-26,2025-03-29,,Swiftship,North,East,North-East,Air,780,Vehicle Issue,Delivered,1918.02,Economy,,,False,,False,False
+SHP004860,2025-12-22,2025-12-24,2025-12-29,,Metrologix,Central,South,Central-South,Air,2200,,Delivered,4259.3,Standard,,,False,,False,False
+SHP000245,2025-03-22,2025-03-24,2025-03-31,,Parcelpro,South,Central,South-Central,Road,1370,,Delivered,1546.13,Standard,,,False,,False,False
+SHP004475,2025-09-08,2025-09-09,2025-09-14,,Parcelpro,South,North,South-North,Road,1170,,Delivered,946.57,Express,,,False,,False,False
+SHP004335,2025-06-27,2025-07-01,2025-07-07,,Swiftship,North,East,North-East,Road,1050,,Delivered,1204.21,Express,,,False,,False,False
+SHP000834,2025-07-23,2025-07-26,2025-07-28,,Parcelpro,Central,West,Central-West,Air,680,,Delivered,1329.42,Economy,,,False,,False,False
+SHP001372,2025-12-09,2025-12-13,2025-12-23,,Swiftship,South,Central,South-Central,Road,2280,Capacity Constraint,Delivered,3201.12,Economy,,,False,,False,False
+SHP005870,2025-04-30,2025-05-02,,2025-05-05,Parcelpro,West,South,West-South,Road,1230,,Delivered,1083.97,Economy,3.0,,False,,False,False
+SHP003778,2025-09-02,2025-09-05,2025-09-07,,Skyfreight,North,Central,North-Central,Air,470,Capacity Constraint,Delivered,1195.95,Express,,,False,,False,False
+SHP006328,2025-06-12,2025-06-13,,2025-06-21,Metrologix,North,South,North-South,Road,450,Weather,Delivered,422.22,Express,8.0,,False,,False,False
+SHP004941,2025-11-14,2025-11-16,,2025-11-23,Metrologix,North,Central,North-Central,Rail,130,Weather,Delivered,170.46,Economy,7.0,,False,,False,False
+SHP005884,2025-07-15,2025-07-18,,2025-07-31,Swiftship,North,South,North-South,Air,2400,Vehicle Issue,Delivered,4314.82,Standard,13.0,,False,,False,False
+SHP000866,2025-10-05,2025-10-06,,2025-10-10,Metrologix,North,East,North-East,Road,890,,Delivered,1251.7,Standard,4.0,,False,,False,False
+SHP001900,2025-11-11,2025-11-13,,2025-12-03,Roadrunner,West,Central,West-Central,Road,2250,Warehouse Backlog,Delivered,3139.26,Standard,20.0,,False,,False,False
+SHP000407,2025-04-26,2025-04-28,,2025-05-04,Roadrunner,North,Central,North-Central,Road,1070,,Delivered,1355.13,Express,6.0,,False,,False,False
+SHP003542,2025-12-20,2025-12-21,2025-12-23,,Parcelpro,South,Central,South-Central,Air,480,Warehouse Backlog,Delivered,692.99,Express,,,False,,False,False
+SHP001569,2025-04-09,2025-04-10,,2025-04-11,Parcelpro,West,,,Road,410,,Delivered,565.38,Express,1.0,,False,,False,False
+SHP003262,2025-02-27,2025-02-28,2025-03-06,,Parcelpro,Central,East,Central-East,Rail,1960,,Delivered,1499.85,Express,,,False,,False,False
+SHP004075,2025-09-28,2025-09-30,2025-10-03,,Skyfreight,West,Central,West-Central,Road,610,Customs,Delivered,568.17,Standard,,,False,,False,False
+SHP004972,2025-06-22,2025-06-25,,2025-07-02,Roadrunner,North,Central,North-Central,Road,1410,Vehicle Issue,Delivered,1248.47,Standard,7.0,,False,,False,False
+SHP005349,2025-08-02,2025-08-04,,2025-08-09,Roadrunner,East,Central,East-Central,Road,860,Weather,Delivered,1067.32,Standard,5.0,,False,,False,False
+SHP001826,2025-01-06,2025-01-07,2025-01-11,,Parcelpro,Central,West,Central-West,Air,1060,,Delivered,2395.47,Express,,,False,,False,False
+SHP003032,2025-03-30,2025-04-03,,2025-04-04,Swiftship,North,West,North-West,Air,1180,,Delivered,2083.59,Standard,1.0,,False,,False,False
+SHP006007,2025-11-11,2025-11-12,2025-11-16,,Swiftship,East,Central,East-Central,Road,440,,Delivered,413.85,Economy,,,False,,False,False
+SHP001582,2025-07-29,2025-07-31,,2025-08-08,Metrologix,East,Central,East-Central,Road,960,Warehouse Backlog,Delivered,733.83,Economy,8.0,,False,,False,False
+SHP001518,2025-10-21,2025-10-24,,2025-10-26,Skyfreight,South,East,South-East,Road,130,,Delivered,241.23,Express,2.0,,False,,False,False
+SHP005774,2025-10-05,2025-10-07,,2025-10-13,Metrologix,Central,East,Central-East,Road,1000,Capacity Constraint,Delivered,1452.18,Economy,6.0,,False,,False,False
+SHP003209,2025-03-10,2025-03-11,,2025-03-20,Roadrunner,South,Central,South-Central,Road,250,Vehicle Issue,Delivered,360.16,Standard,9.0,,False,,False,False
+SHP001325,2025-01-06,2025-01-09,2025-01-15,,Swiftship,East,North,East-North,Road,1590,Customs,Delivered,1371.21,Economy,,,False,,False,False
+SHP002725,2025-10-02,2025-10-05,,2025-10-10,Skyfreight,East,Central,East-Central,Road,570,,Delivered,686.85,Standard,5.0,,False,,False,False
+SHP000863,2025-05-07,2025-05-09,,2025-05-10,Parcelpro,West,Central,West-Central,Air,220,,Delivered,531.59,Standard,1.0,,False,,False,False
+SHP003697,2025-07-06,2025-07-08,,2025-07-13,Parcelpro,Central,South,Central-South,Road,570,,Delivered,726.38,Economy,5.0,,False,,False,False
+SHP004461,2025-03-18,2025-03-22,,2025-03-27,Metrologix,Central,South,Central-South,Rail,2110,,Delivered,1564.52,Express,5.0,,False,,False,False
+SHP006067,2025-05-03,2025-05-05,2025-05-10,,Parcelpro,East,West,East-West,Road,1350,Vehicle Issue,Delivered,1845.84,Economy,,,False,,False,False
+SHP004003,2025-10-22,2025-10-23,,2025-10-25,Roadrunner,North,South,North-South,Road,590,,Delivered,506.17,Economy,2.0,,False,,False,False
+SHP003738,2025-07-08,2025-07-09,,2025-07-19,Skyfreight,North,West,North-West,Road,1630,Customs,Delivered,1502.35,Economy,10.0,,False,,False,False
+SHP004812,2025-03-02,2025-03-04,,2025-03-18,Roadrunner,East,West,East-West,Road,1520,Traffic,Delivered,1207.58,Standard,14.0,,False,,False,False
+SHP004695,2025-10-06,2025-10-08,2025-10-12,,Swiftship,Central,East,Central-East,Air,590,,Delivered,1002.36,Standard,,,False,,False,False
+SHP003624,2025-06-02,2025-06-03,,2025-06-08,Roadrunner,West,East,West-East,Road,1630,,Delivered,1229.82,Standard,5.0,,False,,False,False
+SHP001191,2025-12-25,2025-12-28,,2026-01-13,Swiftship,East,South,East-South,Road,2320,Capacity Constraint,Delivered,2792.32,Economy,16.0,,False,,False,False
+SHP001309,2025-04-29,2025-05-01,2025-05-04,,Skyfreight,North,East,North-East,Air,470,,Delivered,1106.07,Economy,,,False,,False,False
+SHP001246,2025-06-30,2025-07-01,2025-07-05,,Parcelpro,West,South,West-South,Road,350,Vehicle Issue,Delivered,507.83,Standard,,,False,,False,False

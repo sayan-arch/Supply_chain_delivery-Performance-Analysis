@@ -1,0 +1,13 @@
+KPI,Value
+Total shipments,6493.0
+Delivered shipments,5941.0
+On-time shipments,2867.0
+On-time delivery rate (%),48.874872144561884
+Average delivery time (days),6.992499147630412
+Median delivery time (days),7.0
+Average delay among late shipments (days),3.681893964654885
+Maximum delay (days),10.0
+Late shipment count,2999.0
+Late shipment percentage (%),51.125127855438116
+Average shipping cost,1539.4205159402434
+Average distance per shipment (km),1251.3660865547513
