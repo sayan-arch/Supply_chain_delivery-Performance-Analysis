@@ -91,3 +91,6 @@ test.db
 *.profile
 *.dump
 *.sql.gz
+.venv
+__pycache__/
+*.pyc
