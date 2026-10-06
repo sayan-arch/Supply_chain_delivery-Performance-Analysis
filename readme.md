@@ -44,11 +44,26 @@ Use Python 3.9 or newer.
    data/raw/shipment_delivery.csv
    ```
 
-4. Run the analysis:
+4. Run the analysis pipeline:
 
    ```text
    python main.py
    ```
+
+5. Launch the interactive Streamlit dashboard:
+
+   ```text
+   streamlit run app.py
+   ```
+
+## Streamlit Cloud Deployment
+
+To deploy this dashboard live on **Streamlit Community Cloud** (free):
+1. Push this repository to GitHub.
+2. Visit [share.streamlit.io](https://share.streamlit.io/) and log in with GitHub.
+3. Click **"New app"**.
+4. Select your repository, set the Branch to `main` (or `master`), and set Main file path to `app.py`.
+5. Click **"Deploy"**. The app will install packages from `requirements.txt` and launch automatically.
 
 ## Data cleaning and metric definitions
 
